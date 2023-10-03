@@ -1,0 +1,113 @@
+*{
+  margin :0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+ background: #eee;
+ color: #333;
+ font-family: sans-serif;
+}
+header{
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 32%;
+  list-style: none;
+}
+header ul li {
+  cursor: pointer;
+
+}
+header ul li:hover {
+  cursor: pointer;
+  color: #f1c40f;
+  
+}
+h2 a{
+  font-family: "Long Cang", cursive;
+}
+.fa-solid{
+  color: #f1c40f;
+} 
+/* container */
+.container{
+  background: url("./images/frame.jpg") center center/cover;
+
+  height: 100vh;
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.content{
+  padding: 1rem;
+  text-align: center;
+  max-width: 80%;
+}
+.content h1{
+  color: white;
+  font-size: 24px;
+  font-size: 3.3rem;
+  font-weight: 700;
+  
+}
+.content p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+/* offre */
+#offres{
+  padding: 10rem 10rem;
+  
+}
+#offres ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+#offres ul li {
+  flex: 1;
+  margin: 15px;
+  list-style: none;
+  background: white;
+  
+  border: 1px solid #ddd;
+
+}
+.img-house
+{
+  width: 100%;
+}
+.offre-p{
+  text-align: center;
+  background-color: white;
+  padding: 15px;
+  margin-top
+  : 0;
+}
+.offre-p p{
+  margin-bottom: 0.9rem;
+}
+.separator{
+margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #333;
+}

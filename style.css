@@ -126,13 +126,16 @@ margin: 1rem auto;
   flex: 1;
   background: url("./images/team.jpg") center center/cover;
 }
-.text-equipe{
+#text-equipe{
   flex: 1;
   padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.text-equipe p{
+#text-equipe p{
   line-height: 1.9rem;
+}
+#text-equipe h1{
+  margin-bottom: 15px;
 }

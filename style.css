@@ -139,3 +139,52 @@ margin: 1rem auto;
 #text-equipe h1{
   margin-bottom: 15px;
 }
+/* avis */
+#avis{
+
+  padding: 5rem;
+}
+#avis h1{
+  margin-bottom: 5rem;
+}
+.avis-content{
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 15px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quotes-p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.person img{
+  width: 50px;
+  border-radius: 50px;
+
+}
+.person h2{
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+}
+/* connecter nous */
+#connecter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 10rem 5rem;
+  min-height: 600px;
+}
+#connecter input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}

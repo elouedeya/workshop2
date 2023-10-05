@@ -23,11 +23,17 @@ header ul{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 32%;
+  width: 26%;
   list-style: none;
 }
 header ul li {
   cursor: pointer;
+
+}
+header ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 
 }
 header ul li:hover {
@@ -210,4 +216,12 @@ margin: 1rem auto;
 #connecter button:hover{
   background: red;
 
+}
+/* copyright */
+#copyright{
+  background: #444;
+  min-height: 150px;
+  text-align: center;
+  color: white;
+  padding: 5rem;
 }

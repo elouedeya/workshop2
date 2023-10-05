@@ -186,5 +186,28 @@ margin: 1rem auto;
 #connecter input{
   background: none;
   border: none;
+  outline: 0;
   border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+#connecter input::placeholder{
+  color: #ddd;
+  font-size: 1rem;
+  font-weight: 300;
+}
+#connecter button{
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 46px;
+  width: 15%;
+  background: #f1c40f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#connecter button:hover{
+  background: red;
+
 }
